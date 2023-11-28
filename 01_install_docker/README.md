@@ -1,4 +1,7 @@
-first install docker uduntu image
+
+***Small guide how to install and use ubuntu docker-image***
+
+First install docker uduntu image
 
 ```
 sudo docker run -ti ubuntu:20.04 /bin/bash
@@ -53,3 +56,18 @@ sudo docker run -ti testimage /bin/bash
 ```
 
 all packages will be availabele inside container
+
+---
+---
+next feature let you run multiple terminals from only container
+
+in 1st terminal run:
+
+```
+sudo docker run -ti testimage /bin/bash
+```
+
+in 2nd termianal run
+```
+sudo docker exec -it <constainer_id> bash 
+```
