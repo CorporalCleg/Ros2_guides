@@ -1,5 +1,5 @@
 
-***Crete workspace***
+***Create workspace***
 
 First create in your home directory, where all your projects will be placed:
 
